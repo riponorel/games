@@ -67,10 +67,10 @@ def run_bot(data_account, recover=1):
     try:
 
         nama_modif = kw.replace(" ", "-")
-        gmail = f"{nama_modif}-unblock-gamess-{random_string(6)}@gmail.com"
-        slug = f"{nama_modif}-{random_string(6)}"
-        judul = f"{kw} Unblocked Games Premium"
-        link = f"https://freeplayer.one/?title= CLICK HERE >> {kw}?ref=UBNT"
+        gmail = f"{nama_modif}-premium@gmail.com"
+        slug = f"{nama_modif}-unblocked-games"
+        judul = f"{kw} Unblocked Games Premium | Play online"
+        link = f"https://us.freeplayer.one/?title= CLICK HERE >> {kw}?ref=*10D"
 
         driver.get("https://bento.me/signup?ref=techcrunch&app=wetransferflow&atb=true")
         time.sleep(3)
